@@ -47,7 +47,7 @@ const Slotsec = () => {
           <h2 data-aos="fade-up" className="md:text-5xl sm:text-4xl text-3xl font-normal font-anton leading-[57.6px] mx-auto text-center text-[#00141B]">
             Slots{" "}
           </h2>
-          <p data-aos="fade-up" className="font-inter text-[#00141B] font-medium sm:text-base text-sm sm:leading-[25.6px] leading-5 mx-auto text-center max-w-[904px]">
+          <p data-aos="fade-up" className="font-inter md:pt-4 sm:pt-2 pt-1 text-[#00141B] font-medium sm:text-base text-sm sm:leading-[25.6px] leading-5 mx-auto text-center max-w-[904px]">
             En Exclusive Games, ofrecemos una selección de más de 600 juegos de
             los principales desarrolladores, como Aristocrat, Amatic, EGT,
             Novomatic, IGT, Playtech, Igrosoft y Tom Horn. Nuestro equipo

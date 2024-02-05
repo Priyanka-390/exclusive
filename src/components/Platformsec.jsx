@@ -3,7 +3,7 @@ import React from "react";
 
 const Platformsec = () => {
   return (
-    <div className=" overflow-x-clip px-3">
+    <div id="hog" className=" overflow-x-clip px-3">
       <div className="container lg:py-[104px] md:py-20  sm:py-14 py-8 rounded-[16px] border-[0.5px] border-[#FFFFFF80] max-w-[1140px] bg-[url(./assets/images/lanzalayer.webp)] px-3 mx-auto flex justify-center flex-col">
         <h2 data-aos="zoom-in"
           className="text-white font-anton font-normal mx-auto text-center text-[32px] leading-[

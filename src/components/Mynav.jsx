@@ -17,7 +17,7 @@ const Mynav = () => {
       <div className="container max-w-[1140px] px-3 mx-auto">
         <div className="flex items-center  py-6 justify-between">
           <div className="flex items-center justify-between">
-            <a href="">
+            <a href=""  onClick={nav}>
               <img src={logo} alt="" />
             </a>
             <ul
@@ -27,7 +27,7 @@ const Mynav = () => {
             >
               <li>
                 <a
-                  href=""
+                  href="#hog"  onClick={nav}
                   className=" font-inter font-medium navhover text-white text-base leading-[25.6px]"
                 >
                   Hogar
@@ -35,7 +35,7 @@ const Mynav = () => {
               </li>
               <li>
                 <a
-                  href=""
+                  href="#miss" onClick={nav}
                   className=" font-inter font-medium navhover text-white text-base leading-[25.6px]"
                 >
                   Misión
@@ -43,7 +43,7 @@ const Mynav = () => {
               </li>
               <li>
                 <a
-                  href=""
+                  href="#tra"  onClick={nav}
                   className=" font-inter font-medium navhover text-white text-base leading-[25.6px]"
                 >
                   Tragamonedas
@@ -51,7 +51,7 @@ const Mynav = () => {
               </li>
               <li>
                 <a
-                  href=""
+                  href="#casn"  onClick={nav}
                   className=" font-inter font-medium text-white  navhover text-base leading-[25.6px]"
                 >
                   Por qué elegirnos
@@ -59,7 +59,7 @@ const Mynav = () => {
               </li>
               <li>
                 <a
-                  href=""
+                  href="#offer" onClick={nav}
                   className=" font-inter font-medium navhover text-white text-base leading-[25.6px]"
                 >
                   Ofertas

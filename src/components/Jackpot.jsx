@@ -4,7 +4,7 @@ import { Tick } from "../assets/svg/icon";
 
 const Jackpot = () => {
   return (
-    <div className="relative z-[1] overflow-x-clip">
+    <div id="tra" className="relative z-[1] overflow-x-clip">
       <div className="container max-w-[1140px] px-3 mx-auto md:pt-20 sm:pt-16 pt-12">
         <div className="flex flex-row flex-wrap lg:-mx-3 mx-auto max-lg:max-w-[760px] items-center">
           <div className="lg:w-1/2 w-full px-3" data-aos="fade-right">

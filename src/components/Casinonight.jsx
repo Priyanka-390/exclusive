@@ -3,7 +3,7 @@ import casin from "../assets/images/casinonight (1).webp"
 
 const Casinonight = () => {
   return (
-    <div className="lg:pt-[304px] md:py-20 sm:py-16 overflow-x-clip py-12 max-md:bg-white lg:pb-[324px] ">
+    <div id="casn" className="lg:pt-[304px] md:py-20 sm:py-16 overflow-x-clip py-12 max-md:bg-white lg:pb-[324px] ">
       <div className="container max-w-[1140px] px-3 mx-auto">
         <div className="flex flex-wrap -mx-3 items-center sm:flex-row flex-col-reverse">
           <div className="sm:w-1/2 w-full px-3"data-aos="fade-right">

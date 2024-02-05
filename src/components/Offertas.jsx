@@ -4,7 +4,7 @@ import { Tick } from "../assets/svg/icon";
 
 const Offertas = () => {
   return (
-    <div className="overflow-x-clip">
+    <div className="overflow-x-clip" id="offer">
       <div className="container max-w-[1140px] px-3 mx-auto">
         <div className="flex justify-center flex-col items-center">
           <h2

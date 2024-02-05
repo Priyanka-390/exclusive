@@ -4,7 +4,7 @@ import avi from "../assets/images/avitor.webp";
 
 const Mission = () => {
   return (
-    <div className="md:pt-[74px] pt-5 lg:pb-[100px] sm:pb-16 pb-8 relative z-[1] overflow-x-clip">
+    <div id="miss" className="md:pt-[74px] pt-5 lg:pb-[100px] sm:pb-16 pb-8 relative z-[1] overflow-x-clip">
       <div className="container max-w-[1140px] px-3 mx-auto">
         <div className="flex flex-row flex-wrap -mx-3">
           <div className="md:w-1/2 w-full md:px-6 px-3"data-aos="zoom-in">
