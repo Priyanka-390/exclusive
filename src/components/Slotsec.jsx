@@ -27,7 +27,7 @@ const data = [
   },
 ]
 const imgdata = data.map((data, i) => (
-   <div key={i} className="md:w-1/3 sm:w-1/2 w-full px-3 pt-6" data-aos="flip-left">
+   <div key={i} className="md:w-1/3 sm:w-1/2 w-full px-3 pt-6" data-aos="zoom-in">
           <div className=" hover:bg-green-blue  group p-[1px] rounded-[8px]">
             <div className="  rounded-[7px] relative overflow-hidden">
               <div className="w-full h-full flex items-center justify-center  scale-0 group-hover:scale-[1] group-hover:opacity-100  duration-500 absolute left-0 bg-[#000000B8] opacity-0  top-0"> <button className="py-3 px-[46px] bg-transparent hover:bg-white hover:text-black duration-300  border border-solid border-white after:content-[url(./assets/images/white-btn.webp)] after:absolute relative after:bottom-[-30%] after:left-[-5%] rounded-full  text-base leading-[25.6px] text-white font-inter font-bold">

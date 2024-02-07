@@ -18,7 +18,8 @@ const imgdata = [
 const data = imgdata.map((imgdata, e) => (
       <div className="md:w-1/3 sm:w-1/2 w-full px-3 pb-2" data-aos="flip-down">
                      <div className="relative overflow-hidden group rounded-[8px]">
-            <div className="w-full h-full flex items-center justify-center scale-0 group-hover:scale-[1] group-hover:opacity-100 duration-500 absolute left-0 bg-[#000000B2] opacity-0  top-0"> <button className="py-3 px-[46px] bg-transparent border hover:bg-white hover:text-black duration-300  border-solid border-white after:content-[url(./assets/images/white-btn.webp)] after:absolute relative after:bottom-[-30%] after:left-[-5%] rounded-full  text-base leading-[25.6px] text-white font-inter font-bold">
+            <div className="w-full hover:shadow-[7px_9px_15px_0px_#00000033]
+ h-full flex items-center justify-center scale-0 group-hover:scale-[1] group-hover:opacity-100 duration-500 absolute left-0 bg-[#000000B2] opacity-0  top-0"> <button className="py-3 px-[46px] bg-transparent border hover:bg-white hover:text-black duration-300  border-solid border-white after:content-[url(./assets/images/white-btn.webp)] after:absolute relative after:bottom-[-30%] after:left-[-5%] rounded-full  text-base leading-[25.6px] text-white font-inter font-bold">
                   Reproducir ahora
                 </button></div>
             <img src={imgdata.img} alt="img1" className="w-full h-full" />

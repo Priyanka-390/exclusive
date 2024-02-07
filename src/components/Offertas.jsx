@@ -22,12 +22,13 @@ const Offertas = () => {
         </div>
         <div className="border-[0.5px] lg:pl-[47px] lg:pr-10 md:px-8 sm:px-6 px-4 bg-boxgraient rounded-[16px] border-[#FFFFFF80]">
           <div className="flex flex-wrap flex-row -mx-3 items-center">
-            <div className="md:w-1/2 w-full px-3 max-md:pt-4"data-aos="fade-right">
+            <div className="md:w-1/2 relative z-[2] w-full px-3 max-md:pt-4"data-aos="fade-right">
               <img
                 src={casinrole}
                 alt="cas"
                 className=" w-full max-h-[413px] h-full"
               />
+                            <div className="w-[162px] h-[162px]  blur-[50px] absolute top-[2%] left-[15%] z-[-1] bg-ellips"></div>
             </div>
             <div className="md:w-1/2 w-full px-3 lg:pt-14 md:pt-10 sm:pt-5 pt-4" data-aos="fade-left">
               <h2 className="font-normal font-anton text-white md:text-start text-center leading-[41.6px] lg:text-[32px] md:text-3xl text-2xl ">

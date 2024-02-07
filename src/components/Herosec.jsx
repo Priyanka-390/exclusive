@@ -2,7 +2,7 @@ import React from "react";
 
 const Herosec = () => {
   return (
-    <div className="flex justify-center overflow-x-clip flex-col items-center lg:pt-[140px] lg:pb-[222px] md:py-24 sm:py-20 py-20">
+    <div className="flex justify-center flex-grow overflow-x-clip flex-col items-center ">
           <div className="container max-w-[1140px] px-3 mx-auto">
               <div className=" flex justify-center flex-col items-center">
         <h1 data-aos="fade-right" data-aos-delay='3000' className=" font-anton font-normal text-white max-w-[505px] lg:text-7xl md:text-6xl text-center sm:text-5xl text-4xl">

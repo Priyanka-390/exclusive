@@ -28,7 +28,7 @@ const Mynav = () => {
               <li>
                 <a
                   href="#hog"  onClick={nav}
-                  className=" font-inter font-medium navhover text-white text-base leading-[25.6px]"
+                  className=" font-inter font-medium text-[#D3D8DB] hover:text-white duration-300 text-base leading-[25.6px]"
                 >
                   Hogar
                 </a>
@@ -36,7 +36,7 @@ const Mynav = () => {
               <li>
                 <a
                   href="#miss" onClick={nav}
-                  className=" font-inter font-medium navhover text-white text-base leading-[25.6px]"
+                  className=" font-inter font-medium  text-[#D3D8DB] hover:text-white duration-300 text-base leading-[25.6px]"
                 >
                   Misión
                 </a>
@@ -44,7 +44,7 @@ const Mynav = () => {
               <li>
                 <a
                   href="#tra"  onClick={nav}
-                  className=" font-inter font-medium navhover text-white text-base leading-[25.6px]"
+                  className=" font-inter font-medium text-[#D3D8DB] hover:text-white duration-300 text-base leading-[25.6px]"
                 >
                   Tragamonedas
                 </a>
@@ -52,7 +52,7 @@ const Mynav = () => {
               <li>
                 <a
                   href="#casn"  onClick={nav}
-                  className=" font-inter font-medium text-white  navhover text-base leading-[25.6px]"
+                  className=" font-inter font-medium text-[#D3D8DB] hover:text-white duration-300 text-base leading-[25.6px]"
                 >
                   Por qué elegirnos
                 </a>
@@ -60,7 +60,7 @@ const Mynav = () => {
               <li>
                 <a
                   href="#offer" onClick={nav}
-                  className=" font-inter font-medium navhover text-white text-base leading-[25.6px]"
+                  className=" font-inter font-medium text-[#D3D8DB] hover:text-white duration-300 text-base leading-[25.6px]"
                 >
                   Ofertas
                 </a>

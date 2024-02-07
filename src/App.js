@@ -41,7 +41,7 @@ const App = () => {
      <div>
        {preloader&& <Preloader/>}
            <div className="bg-[#001418]">
-        <div className="bg-[url(./assets/images/herobg.webp)] sm:min-h-screen bg-cover bg-center bg-no-repeat">
+        <div className="bg-[url(./assets/images/herobg.webp)] flex flex-col min-h-screen bg-cover bg-center bg-no-repeat">
           <Mynav />
           <Herosec />
         </div>
